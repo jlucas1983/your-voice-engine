@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ProofSection from "@/components/ProofSection";
+import ProblemSection from "@/components/ProblemSection";
+import DifferenceSection from "@/components/DifferenceSection";
+import ManifestoSection from "@/components/ManifestoSection";
+import FounderSection from "@/components/FounderSection";
+import OpenSourceSection from "@/components/OpenSourceSection";
+import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="relative overflow-x-hidden scroll-smooth">
+      {/* Background Grid Texture */}
+      <div className="fixed inset-0 bg-grid opacity-40 pointer-events-none z-0" />
+
+      <Navbar />
+      <HeroSection />
+      
+      <hr className="border-foreground/10 mx-6 relative z-10" />
+      
+      <ProofSection />
+      <ProblemSection />
+      <DifferenceSection />
+      <ManifestoSection />
+      <FounderSection />
+      <OpenSourceSection />
+      <FAQSection />
+      <Footer />
     </div>
   );
 };
