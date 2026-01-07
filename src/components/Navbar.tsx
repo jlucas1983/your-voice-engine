@@ -3,7 +3,7 @@ import { Github } from "lucide-react";
 const Navbar = () => {
   return (
     <nav className="relative z-10 w-full px-6 py-6 flex justify-between items-center border-b-2 border-foreground/10 bg-ink-white">
-      <div className="text-xl font-bold tracking-tighter font-sans">
+      <div className="text-2xl md:text-3xl font-bold tracking-tighter font-sans">
         Credible<span className="text-muted-foreground">.ink</span>
       </div>
       <div className="flex gap-4 sm:gap-6 items-center">
