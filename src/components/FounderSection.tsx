@@ -4,11 +4,15 @@ const FounderSection = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/3 relative">
-            {/* Avatar Placeholder / Stylized */}
+            {/* Founder Photo */}
             <div className="aspect-square bg-primary relative group">
               <div className="absolute inset-0 border-2 border-foreground translate-x-3 translate-y-3 bg-ink-white" />
-              <div className="absolute inset-0 flex items-center justify-center bg-background border-2 border-foreground text-center p-6 hover:-translate-y-1 hover:-translate-x-1 transition-transform">
-                <span className="font-sans font-black text-4xl leading-none">JL</span>
+              <div className="absolute inset-0 border-2 border-foreground overflow-hidden hover:-translate-y-1 hover:-translate-x-1 transition-transform">
+                <img 
+                  src="/founder.jpg" 
+                  alt="Josemaría Lucas" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
