@@ -3,12 +3,12 @@ const Footer = () => {
     <footer className="py-12 px-6 text-center">
       <div className="mb-4">
         <span className="font-sans font-black text-2xl tracking-tight">
-          Credible<span className="text-muted-foreground">.ink</span>
+          Credibly<span className="text-muted-foreground">.ink</span>
         </span>
       </div>
       <div className="flex justify-center gap-6 text-sm underline decoration-accent/50 mb-8">
         <a
-          href="https://github.com"
+          href="https://github.com/jlucas1983/linkedin-agent"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-accent transition-colors"

@@ -13,13 +13,13 @@ const ManifestoSection = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="#"
+            href="https://app.credibly.ink/login"
             className="bg-ink-white text-accent border-2 border-ink-white px-8 py-4 font-bold uppercase hover:bg-transparent hover:text-ink-white transition-all flex items-center justify-center"
           >
             Give it a try
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/jlucas1983/linkedin-agent"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border-2 border-foreground/20 hover:bg-foreground/20 bg-foreground/10 text-ink-white font-bold uppercase transition-all flex items-center justify-center gap-2"

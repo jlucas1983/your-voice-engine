@@ -21,13 +21,13 @@ const OpenSourceSection = () => {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
           <a
-            href="#"
+            href="https://app.credibly.ink/login"
             className="bg-primary text-primary-foreground px-6 py-3 font-bold uppercase hover:bg-accent transition-colors flex items-center justify-center"
           >
             Give it a try
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/jlucas1983/linkedin-agent"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 border-2 border-foreground font-bold uppercase hover:bg-primary hover:text-primary-foreground transition-colors text-center flex items-center justify-center"

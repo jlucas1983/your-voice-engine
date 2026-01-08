@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* Visual Backdrop Text */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full select-none pointer-events-none opacity-20 z-[-1]">
         <div className="text-[12vw] leading-none font-black font-sans text-center text-outline tracking-tighter">
-          CREDIBLE<br />CREDIBLE<br />CREDIBLE
+          CREDIBLY<br />CREDIBLY<br />CREDIBLY
         </div>
       </div>
 
@@ -19,19 +19,19 @@ const HeroSection = () => {
       </h1>
 
       <p className="text-lg md:text-xl max-w-2xl mb-10 leading-relaxed text-foreground/80 animate-reveal animation-delay-200">
-        Credible.ink is the content engine I built for myself—because most tools generate AI sludge.
+        Credibly.ink is the content engine I built for myself—because most tools generate AI sludge.
       </p>
 
       {/* CTA Buttons */}
       <div className="w-full max-w-md animate-reveal animation-delay-300 flex flex-col sm:flex-row gap-4 justify-center">
         <a 
-          href="#" 
+          href="https://app.credibly.ink/login" 
           className="flex-1 bg-primary text-primary-foreground border-2 border-primary font-bold p-4 hover:bg-background hover:text-foreground transition-colors uppercase tracking-wide flex items-center justify-center text-center group"
         >
           Give it a try <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
         </a>
         <a 
-          href="https://github.com" 
+          href="https://github.com/jlucas1983/linkedin-agent" 
           target="_blank"
           rel="noopener noreferrer"
           className="flex-none flex items-center justify-center px-6 border-2 border-foreground hover:bg-muted transition-colors"

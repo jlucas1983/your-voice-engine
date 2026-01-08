@@ -46,7 +46,7 @@ const FounderSection = () => {
             </div>
             <div className="mt-8 flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/josemar%C3%ADa-lucas-cfa-30220a8/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-bold hover:text-accent transition-colors border-b-2 border-foreground hover:border-accent pb-1"
